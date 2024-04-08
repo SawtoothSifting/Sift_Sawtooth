@@ -29,6 +29,8 @@ if __name__ == "__main__":
     import dgl.nn as dglnn
     import torch.optim as optim
     from time import time
+    from modules.AME import AME
+    from modules.Sift import Sift
 
     import os
     local_rank = int(os.environ["LOCAL_RANK"])
